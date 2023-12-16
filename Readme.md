@@ -45,7 +45,7 @@ The commands are as follows -
 | Move | $ move <source_file(s)> <destination_directory> |
 | Rename | $ rename <old_filename> <new_filename> |
 | Create file | $ create_file <file_name> <destination_path> |
-| Create directory | create_dir <dir_name> <destination_path> |
+| Create directory | $ create_dir <dir_name> <destination_path> |
 | Delete file | $ delete_file <file_path> |
 | Delete directory | $ delete_dir <dir_path> |
 | Goto | $ goto <location> |
@@ -78,7 +78,7 @@ Note that in some linux machines (actual machines, not only VM), enter key is ma
 ### Other
 
 - Normal mode starts from the current directory. Home is the home of the machine.
-- Rename command works only for files and not for directories, because in PDF only files are to be renamed.
+- Rename command works only for files and not for directories.
 
 # How to run the application
 
